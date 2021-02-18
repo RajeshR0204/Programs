@@ -29,6 +29,10 @@ pipeline {
                         {
                                 steps{
                                         echo "Running the unit test..."
+					sh '''
+                    				echo "Multiline shell steps works too"
+                    				ls -lah
+                			'''
                                 }
                         }
                         stage('Integration Test') 
