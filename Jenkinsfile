@@ -29,10 +29,9 @@ pipeline {
                         {
                                 steps{
                                         echo "Running the unit test..."
-					sh '''
-                    				echo "Multiline shell steps works too"
-                    				ls -lah
-                			'''
+					sh 'javac HelloWorld.java'
+					sh 'java HelloWorld'				
+                    			
                                 }
                         }
                         stage('Integration Test') 
