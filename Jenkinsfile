@@ -11,7 +11,7 @@ pipeline {
 		    
 		steps {
 			input('Do you want to proceed????')
-        }
+        	}
 	    }
         stage('Three') {
                 when {
@@ -21,7 +21,7 @@ pipeline {
                 }
                 steps {
 			echo "Hello"
-                        }
+                }
         }
         stage('Four') {
                 parallel {
@@ -37,7 +37,7 @@ pipeline {
                                         echo "Running the int test..."
                                 }
                         }
-                        }
+                }
         }
     }
 }
