@@ -28,9 +28,7 @@ pipeline {
                         stage('Unit Test') 
                         {
                                 steps{
-                                        echo "Running the unit test..."
-					sh 'javac HelloWorld.java'
-					sh 'java HelloWorld'				
+                                        echo "Running the unit test..."					
                     			
                                 }
                         }
