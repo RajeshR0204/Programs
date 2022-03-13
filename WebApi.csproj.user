@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Controller_SelectedScaffolderID>MvcControllerEmptyScaffolder</Controller_SelectedScaffolderID>
+    <Controller_SelectedScaffolderCategoryPath>root/Common/MVC/Controller</Controller_SelectedScaffolderCategoryPath>
+    <NameOfLastUsedPublishProfile>C:\Rajesh\Azure-Projects\AZ-204 - Implement Azure security - OAUTH\8. Lab - Protecting your Web API%27s\WebApi\WebApi\Properties\PublishProfiles\webapp6000 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+  </PropertyGroup>
+</Project>
